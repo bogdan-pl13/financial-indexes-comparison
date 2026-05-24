@@ -23,7 +23,7 @@ Downloads daily Close prices via `yfinance` for a user-defined ticker list and b
 
 ## Output
 
-![Risk/Return Scatter](risk_return.png)
+Risk/Return Scatter plot in /outputs/riskreturn.png
 
 ```
 === Index Risk / Return Summary ===
@@ -96,14 +96,14 @@ Sharpe ratio uses rf = 0. For a more accurate measure, subtract the annualised 3
 
 ## Improvements Roadmap
 
-- [ ] Historical shares outstanding via FMP or Compustat for time-accurate VWI weights
-- [ ] Switch to adjusted close prices for total return calculation
-- [ ] Configurable rebalancing frequency for EWI (monthly, quarterly)
-- [ ] Configurable risk-free rate for Sharpe ratio
-- [ ] Max drawdown and recovery period metrics
-- [ ] Correlation heatmap across all series
-- [ ] Excel export via `openpyxl` with formatted summary sheet
-- [ ] Unit tests for index construction and annualisation logic
+- Historical shares outstanding via FMP or Compustat for time-accurate VWI weights
+- Switch to adjusted close prices for total return calculation
+- Configurable rebalancing frequency for EWI (monthly, quarterly)
+- Configurable risk-free rate for Sharpe ratio
+- Max drawdown and recovery period metrics
+- Correlation heatmap across all series
+- Excel export via `openpyxl` with formatted summary sheet
+- Unit tests for index construction and annualisation logic
 
 ---
 
